@@ -13,6 +13,10 @@ nav a {
     padding: 35px;
 }
 
+.logo {
+    width: 80px;
+}
+
 .icon {
     padding-top: 10px;
     width: 80px;
@@ -130,13 +134,18 @@ footer {
     margin-top: 200px;
 }
 
+footer p {
+    font-size: 1.2em;
+}
+
 footer a {
     text-decoration: none;
     color: #513D2F;
 }
 
-footer a:hover {
+footer p a:hover {
     color: #D17E30;
+    text-decoration: underline;
 }
 
 footer .social img {
