@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@300&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,14 +10,23 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #513D2F;
+    padding: 35px;
 }
 
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .home-title {
-    color: #513D2F;
+    font-family: 'Acme', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: #ECB72F;
+    margin-top: 10px;
 }
 
 h4 {
@@ -25,12 +37,20 @@ h4 {
     text-align: center;
 }
 
+#hero-img {
+    width: 100%;
+}
+
 .button-box {
     text-align: center;
 }
 
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -40,6 +60,18 @@ main section {
 
 body {
     background-color: #F3EDE1;
+    font-family: 'Quicksand', 'Arial', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #7BCCC5;
 }
 
 header {
@@ -52,9 +84,13 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #F3EDE1;
+    background-color: #ECB72F;
     color: #513D2F;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -64,10 +100,19 @@ nav a:hover {
 
 .msg {
     background-color: #F3EDE1;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 h2 {
     color: #513D2F;
+    margin: 0;
 }
 
 .msg h2 {
@@ -81,12 +126,19 @@ h2 {
 footer {
     background-color: #7BCCC5;
     color: #513D2F;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-footer:a {
+footer a {
     text-decoration: none;
+    color: #513D2F;
 }
 
 footer a:hover {
-    color: #513D2F;
+    color: #D17E30;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
