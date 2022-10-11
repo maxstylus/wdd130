@@ -2,29 +2,30 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Quicksand:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #586994   ;
-  --secondary-color: #7d869c ;
-  --accent1-color: #E5E8B6;
-  --accent2-color: #A2ABAB;
+  --primary-color: #513D2F   ;
+  --secondary-color: #7bccc5;
+  --accent1-color: #D17E30;
+  --accent2-color: #ECB72F;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Noto Sans JP:wght@500";
-  --paragraph-font: "Noto Sans JP:wght@300", Helvetica, sans-serif;
+  --heading-font: "Acme";   
+  --paragraph-font: "Quicksand"; 
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #586994;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #586994; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #7d869c  ;
-  --nav-link-color: #586994;
-  --nav-background-color: #E5E8B6;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #7d869c;
+  --headline-color-on-white: #513D2F ;  /* headlines on a white background */ 
+  --headline-color-on-color: #513D2F; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #513D2F ; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #513D2F; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #7bccc5 ;
+  --nav-link-color: #513D2F ;
+  --nav-background-color: #ECB72F;
+  --nav-hover-link-color: #F3EDE1;
+  --nav-hover-background-color: #D17E30;
 }
 
 
