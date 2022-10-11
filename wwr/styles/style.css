@@ -21,33 +21,33 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #fcfbfb;
+    background-color: #D17E30;
 }
 
 body {
-    background-color: #fcfbfb;
+    background-color: #F3EDE1;
 }
 
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: #7BCCC5;
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: #D17E30;
 }
 
 .book, .join {
-    background-color: #fcfbfb;
+    background-color: #F3EDE1;
 }
 
 .book:hover, .join:hover {
-    background-color: #fcfbfb;
+    background-color: #D17E30;
 }
 
 .msg {
-    background-color: #fcfbfb;
+    background-color: #F3EDE1;
 }
 
 footer {
-    background-color: #fcfbfb;
+    background-color: #7BCCC5;
 }
