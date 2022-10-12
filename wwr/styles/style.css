@@ -6,11 +6,41 @@
     margin: 0 auto;
 }
 
+body {
+    background-color: #F3EDE1;
+    font-family: 'Quicksand', 'Arial', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #513D2F;
+    margin: 0;
+}
+
+h4 {
+    color: #513D2F;
+}
+
 nav a {
     text-align: center;
     text-decoration: none;
     color: #513D2F;
     padding: 35px;
+}
+
+nav a:hover {
+    background-color: #ECB72F;
+    color: #513D2F;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
 }
 
 .logo {
@@ -33,18 +63,6 @@ nav a {
     margin-top: 10px;
 }
 
-h4 {
-    color: #513D2F;
-}
-
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
-
-#hero-img {
-    width: 100%;
-}
-
 .button-box {
     text-align: center;
 }
@@ -62,14 +80,6 @@ main section img {
     background-color: #D17E30;
 }
 
-body {
-    background-color: #F3EDE1;
-    font-family: 'Quicksand', 'Arial', sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
@@ -80,11 +90,6 @@ body {
 
 header {
     background-color: #7BCCC5;
-}
-
-nav a:hover {
-    background-color: #ECB72F;
-    color: #513D2F;
 }
 
 .book, .join {
@@ -112,11 +117,6 @@ nav a:hover {
 .msg p {
     font-size: .8em;
     padding-bottom: 15px;
-}
-
-h2 {
-    color: #513D2F;
-    margin: 0;
 }
 
 .msg h2 {
