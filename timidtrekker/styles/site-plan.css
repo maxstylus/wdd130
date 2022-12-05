@@ -173,3 +173,9 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+/* Lauren style overrides */
+
+.max-image {
+  max-width: 400px;
+}
