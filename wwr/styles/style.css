@@ -97,8 +97,98 @@ nav a:hover {
 .rivers-main-container {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;    
+    grid-template-rows: 20% 20% 20% 20%;    
 }
+
+/* Contact Us Page */
+
+/*
+.main-contact-us-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%; 
+}
+*/
+
+/* .rivers-guides-containers {    */
+    /* grid-column: 2 / 5;
+    grid-row: 1 / 2;
+    padding: 20px 20px 20px 20px; */
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+
+    /*
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    */   
+
+.river-guides-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto 10px auto;
+}
+
+.guide-profile-pic-name-container { 
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.guide_profile_pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.guide-name {
+    grid-row: 2 / 3;
+}
+
+.river-guides-text-container {
+    grid-column: 2 / 5; 
+    grid-row: 2 / 3;
+    padding: 20px 20px 20px 20px;
+
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.contact-us-text-container {
+    grid-column: 2 / 5; 
+    grid-row: 3 / 4;
+
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto 10px auto;
+}
+
+p.river-guide-text {
+    margin: 50px auto;
+}
+
+a.learn-more {
+    margin: 50px auto;
+}
+
+.contact-us-form-container {
+    grid-column: 2 / 5; 
+    grid-row: 4 / 5;
+
+    margin: 50px auto;
+}
+
+/* Contact Us Page - End */
 
 .rivers-most-popular {
     grid-column: 2 / 5;
@@ -263,7 +353,7 @@ main section img {
     color: #513D2F;
 }
 
-.book, .join {
+.book, .join, .learn-more {
     background-color: #ECB72F;
     color: #513D2F;
     text-decoration: none;
