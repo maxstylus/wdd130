@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+
+
+/* Body */
+
+
+h1,
+h2
+{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+a, 
+p {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+h2 {
+    color: #1982C4;
+    margin: 0;
+}
+
+h4 {
+    color: #1982C4;
+}
+
+/* Navigation  */
+
+header {
+    background-color: #8AC926; /*#7BCCC5*/
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #1982C4;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #FFCA3A; /* #ECB72F */
+    color: #1982C4;
+}
+
+/* Main Page Container */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Hero */
+
+.hero-container {
+    display: flex;
+    min-height: inherit;
+    height: auto;
+    background-image: url("../images/home/boy_looking_at_map.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-overlay {
+    background-color: rgba(57, 41, 79, 0.6);
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+ text-align: center;
+ color: #FFFFFF;
+}
+
+.circle-girl {
+    border-radius: 50%;
+    border: 5px solid #FFCA3A;
+    margin: -85px auto 30px;
+    width: 160px;
+    height: 160px;
+}
+
+.homeschool-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeschool-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeschool-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.homeschool-header-item,
+.homeschool-content-item p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #1982C4;
+}
+
+.timid-trekker-pitch-container {
+    display: flex;
+    min-height: 500px; /* inherit */
+    height: auto;
+    background-image: url("../images/home/boy_pool_swing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.pitch-wrapper {
+    background-color: rgba(90, 131, 25, 0.6); /* FF595E */
+    display: flex;
+    width: 100%;
+    /* max-width: 400px; */
+    flex-direction: row;
+    Justify-content: space-evenly;    
+    margin: 0 auto;
+}
+
+.section3-activities-header {
+    display: flex;
+    max-width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 100px 100px 100px 100px;
+    color: #FFFFFF;
+}
+
+.btn-view-activities {
+    background-color: #8AC926;
+    color: #513D2F;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.section3-activities-header h2,
+.section3-activities-header a,
+.section3-activities-content p
+{
+    color: #FFFFFF;
+}
+
+.section3-adventures-header {
+    display: flex;
+    max-width: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: flex-start;
+    margin: 100px 100px 100px 100px;
+}
+
+.btn-view-adventures {
+    background-color: #FF595E;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.section3-adventures-header h2,
+.section3-adventures-header a,
+.section3-adventures-content p
+{
+    color: #FFFFFF;
+}
+
+.section4-questions-container {
+    background-color: rgba(106, 76, 147, .8);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4-content-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 50px 50px 50px 50px;
+    color: #FFFFFF;
+}
+
+.section4-content-item h2 {
+    color: #FFFFFF;
+}
+
+.section4-form-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 50px 50px 50px 50px;
+    color: #FFFFFF;
+}
+
+/* Contact Us Form */
+
+form {
+    background-color: rgba(106, 76, 147, .4);
+    margin: 60px auto;
+    width: 400px;
+    padding: 1em;
+    /* border: 1px solid #513D2F; */
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font: 1em sans-serif;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #999;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 0.5em;
+    border-radius: .25em;
+    font: 1em sans-serif;
+    color: #1982C4;
+    border: 1px solid #999;
+}
+
+#feedback {
+    background-color: #FFCA3A;
+    color: #1982C4;
+    font: 1em sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5 em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+
+/* Activities Page */
+.activities-hero-container {
+    display: flex;
+    min-height: inherit;
+    height: auto;
+    background-image: url("../images/activities/kids_science_lab.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.activities-hero-overlay {
+    background-color: rgba(255, 89, 94, .6);
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Adventures Page */
+
+.adventures-hero-container {
+    display: flex;
+    min-height: inherit;
+    height: auto;
+    background-image: url("../images/adventures/dad_kid_hiking_walking_sticks.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adventures-hero-overlay {
+    /*background-color: rgba(77, 111, 21, 0.6);*/
+    background-color: rgba(255, 202, 58, .6);
+    display: flex;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.community-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 50px 50px 50px 50px;
+}
+
+.community-header-item,
+.community-content-item p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #1982C4;
+}
+
+.activity-main-container {
+    display:flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.activity-main-card-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 495px;
+    margin: 20px auto;
+}
+
+.header-activty-item {
+    margin-top: 30px;
+}
+
+.adventures-main-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.adventures-main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.adventures-main-card-item { 
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.adventure-card-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 495px;
+    height: 330px;
+    margin: 30px 30px;
+}
+
+.btn-adventure-item {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    background-color: rgba(255, 89, 94, .6);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+a.btn-more-info {
+    text-decoration: none;
+    color: #1982C4;
+}
+
+.adventure-card-img-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 30px;
+}
+
+.section4-timid-wrapper {
+    background-color: rgba(106, 76, 147, .8);
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section4-timid-wrapper.adventures {
+    background-color: rgba(255, 202, 58, .8);
+}
+
+.section4-timid-wrapper.activities {
+    background-color: rgba(255, 89, 94, .6);
+}
+
+.section4-timid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.section4-timid-header-item h2, 
+.section4-timid-content-item p,
+.btn-join-us-item {
+    color: #FFFFFF;
+}
+
+.btn-join-us-item {
+    background-color: rgba(106, 76, 147, .75);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.btn-join-us-item.activities {
+    background-color: rgb(255, 89, 94);
+}
+
+.btn-join-us-item.adventures {
+    background-color: rgb(255, 202, 58);
+}
+
+.btn-join-us-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Footer */
+
+footer {
+    background-color: #8AC926;
+    color: #1982C4;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1982C4;
+}
+
+footer p a:hover {
+    color: #FFCA3A;
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
