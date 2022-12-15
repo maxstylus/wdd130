@@ -352,6 +352,54 @@ button {
     justify-content: center;
 }
 
+
+.activity-main-container {
+    display:flex;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.activity-main-card-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 495px;
+    margin: 20px auto;
+}
+
+.activities-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #6A4C93;
+  }
+
+  .img-activity-item {
+    position: relative;
+  }
+  
+  .img-activity-item:hover .activities-overlay {
+    opacity: 1;
+  }
+  
+
+.activities-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
 /* Adventures Page */
 
 .adventures-hero-container {
@@ -401,18 +449,6 @@ button {
     color: #1982C4;
 }
 
-.activity-main-container {
-    display:flex;
-    margin: 30px auto;
-    justify-content: center;
-}
-
-.activity-main-card-item {
-    display: flex;
-    flex-direction: column;
-    max-width: 495px;
-    margin: 20px auto;
-}
 
 .header-activty-item {
     margin-top: 30px;
